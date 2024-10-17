@@ -120,6 +120,7 @@ const TopNavbar = () => {
           />
         </InputGroup>
         <div className="flex items-center">
+          <Link href="#" className="block md:hidden mr-[14px] p-1">
             <Image
               priority
               src="/icons/search-black.svg"
